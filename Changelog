@@ -1,0 +1,30 @@
+Version 0.1.7
+ * New theme: Oxygen-Refit.
+ * Updated Play/styles.qss for Qt 4.
+
+Version 0.1.6
+ * Updated the Tango theme.
+
+Version 0.1.5
+ * Added the Gartoon theme created by Kud Gray, based on the Gartoon Icons 
+   for Gnome.
+ * Added the create_deb.sh script.
+
+Version 0.1.4
+ * Updated the Tango theme.
+
+Version 0.1.3
+ * Added the Tango theme by Yurkovsky Andrey <anyr@tut.by>
+ * Removed the Oxygen theme as I don't know the license of the icons.
+
+Version 0.1.2
+ * Renamed the debian directory to debian-rvm, so it doesn't conflict with
+   the one made by package maintainers.
+   So if want to create a deb package with dpkg-buidpackage, rename it back 
+   to debian (or create a symlink).
+ * Added a dependency on smplayer in the control file.
+
+Version 0.1.1
+ * Use DESTDIR in Makefile.
+ * Added the debian subdirectory.
+
