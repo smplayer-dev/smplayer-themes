@@ -1,20 +1,25 @@
-[b]Version 0.1.14[/b]
+Version 0.1.15 (not released yet)
+ * Modified and added some icons to the Nuvola style.
+ * Added the license texts for GPL, LGPL, Creative Commons 
+   Attribution-ShareAlike 2.5 and Creative Commons Attribution 2.5.
+
+Version 0.1.14
  * Modified some icons in the Nuvola theme.
 
-[b]Version 0.1.13[/b]
+Version 0.1.13
  * Fixed some filenames in the Nuvola theme.
 
-[b]Version 0.1.12[/b]
+Version 0.1.12
  * Updated the Breathless theme.
 
-[b]Version 0.1.11[/b]
+Version 0.1.11
  * New version of the Breathless theme with smaller icons (32x32 instead of
    128x128).
 
-[b]Version 0.1.10[/b]
+Version 0.1.10
  * Added the Breathless theme, by Kud Gray.
 
-[b]Version 0.1.9[/b]
+Version 0.1.9
  * Added the Nuvola theme, created by Nardog.
 
 Version 0.1.8
