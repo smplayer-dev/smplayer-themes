@@ -1,7 +1,9 @@
-Version 0.1.15 (not released yet)
+Version 0.1.15
  * Modified and added some icons to the Nuvola theme.
  * Added the license texts for GPL, LGPL, Creative Commons 
    Attribution-ShareAlike 2.5 and Creative Commons Attribution 2.5.
+ * Temporary removed blackPanther-MacLike because it doesn't include
+   copyright info.
 
 Version 0.1.14
  * Modified some icons in the Nuvola theme.
