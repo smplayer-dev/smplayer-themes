@@ -8,7 +8,7 @@ Standards-Version: 3.7.2
 Package: smplayer-themes
 Architecture: all
 Depends: smplayer
-Description: Themes icons for SMPlayer
+Description: Icon themes for SMPlayer
  SMPlayer intends to be a complete front-end for Mplayer, from basic features
  like playing videos, DVDs, and VCDs to more advanced features like support
  for Mplayer filters and more. One of the main features is the ability to
