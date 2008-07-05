@@ -1,3 +1,7 @@
+Version 0.1.17
+ * Fixed Gartoon/rewind1m.png. The background was white instead of transparent.
+   Fixes bug #2002560.
+
 Version 0.1.16
  * Added the theme 'Gnome' by <31337h4ck3r@gmail.com>. Icons taken 
    from The GNOME Project. License: GNU General Public License and 
