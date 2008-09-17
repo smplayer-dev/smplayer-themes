@@ -1,6 +1,10 @@
 Version 0.1.17
  * Fixed Gartoon/rewind1m.png. The background was white instead of transparent.
    Fixes bug #2002560.
+ * Revision 1821 of smplayer adds a new icon for Play/Pause (play_pause.png).
+   That breaks all icon themes (the new icon appears in all themes). As a 
+   quick fix, I've just created a play_pause.png in all themes, which is just
+   a copy of play.png.
 
 Version 0.1.16
  * Added the theme 'Gnome' by <31337h4ck3r@gmail.com>. Icons taken 
