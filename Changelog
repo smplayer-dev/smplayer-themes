@@ -1,3 +1,6 @@
+Version 0.1.18
+ * Updated the Gnome theme.
+
 Version 0.1.17
  * Fixed Gartoon/rewind1m.png. The background was white instead of transparent.
    Fixes bug #2002560.
