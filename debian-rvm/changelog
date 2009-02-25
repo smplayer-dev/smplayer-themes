@@ -1,3 +1,9 @@
+smplayer-themes (0.1.19) hardy; urgency=low
+
+  * Updated the Gnome theme.
+
+ -- Ricardo Villalba <rvm@escomposlinux.org>  Wed, 25 Feb 2009 02:57:01 +0100
+
 smplayer-themes (0.1.18) hardy; urgency=low
 
   * New release
