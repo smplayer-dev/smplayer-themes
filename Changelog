@@ -5,6 +5,8 @@ Version 0.1.20
    http://www.oxygen-icons.org/?page_id=4) is dual:  
    Creative Common Attribution-ShareAlike 3.0 License or the GNU Library 
    General Public License.
+ * Added the theme Oxygen-Air.
+ * Deleted the theme Play. It was just an example.
 
 Version 0.1.19
  * Updated the Gnome theme.
