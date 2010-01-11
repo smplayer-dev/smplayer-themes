@@ -1,8 +1,10 @@
 smplayer-themes (0.1.20) hardy; urgency=low
 
   * Added the new theme Oxygen. 
+  * Added the theme Oxygen-Air.
+  * Deleted the theme Play.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Fri, 27 Nov 2009 14:16:02 +0100
+ -- Ricardo Villalba <rvm@escomposlinux.org>  Mon, 11 Jan 2010 13:44:07 +0100
 
 smplayer-themes (0.1.19) hardy; urgency=low
 
