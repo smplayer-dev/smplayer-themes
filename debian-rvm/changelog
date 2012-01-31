@@ -3,7 +3,7 @@ smplayer-themes (1:20120131) hardy; urgency=low
   * Delete Breathless. It seems the license for some icons is not opensource.
   * Delete LeoLike. Not sure about what the real license is. 
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Tue, 31 Jan 2012 14:08:06 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 31 Jan 2012 14:08:06 +0100
 
 smplayer-themes (0.1.20) hardy; urgency=low
 
@@ -11,40 +11,40 @@ smplayer-themes (0.1.20) hardy; urgency=low
   * Added the theme Oxygen-Air.
   * Deleted the theme Play.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Mon, 11 Jan 2010 13:44:07 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 11 Jan 2010 13:44:07 +0100
 
 smplayer-themes (0.1.19) hardy; urgency=low
 
   * Updated the Gnome theme.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Wed, 25 Feb 2009 02:57:01 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 25 Feb 2009 02:57:01 +0100
 
 smplayer-themes (0.1.18) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Sun, 09 Nov 2008 18:11:34 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 09 Nov 2008 18:11:34 +0100
 
 smplayer-themes (0.1.17) hardy; urgency=low
 
   * New Release.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Tue, 23 Sep 2008 01:14:19 +0200
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 23 Sep 2008 01:14:19 +0200
 
 smplayer-themes (0.1.16) unstable; urgency=low
 
   * New Release.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Sat, 07 Jun 2008 03:11:02 +0200
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 07 Jun 2008 03:11:02 +0200
 
 smplayer-themes (0.1.15) unstable; urgency=low
 
   * New Release.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Wed, 30 Jan 2008 23:44:31 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 30 Jan 2008 23:44:31 +0100
 
 smplayer-themes (0.1.14) unstable; urgency=low
 
   * Initial Release.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Fri, 25 May 2007 02:26:55 +0200
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 25 May 2007 02:26:55 +0200
