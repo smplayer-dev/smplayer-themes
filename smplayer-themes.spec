@@ -1,5 +1,5 @@
 %define name    smplayer-themes
-%define version 0.1.20
+%define version 20120131
 %define release rvm
 
 Name:           %{name}
