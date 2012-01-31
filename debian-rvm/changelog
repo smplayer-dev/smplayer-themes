@@ -1,3 +1,10 @@
+smplayer-themes (1:20120131) hardy; urgency=low
+
+  * Delete Breathless. It seems the license for some icons is not opensource.
+  * Delete LeoLike. Not sure about what the real license is. 
+
+ -- Ricardo Villalba <rvm@escomposlinux.org>  Tue, 31 Jan 2012 14:08:06 +0100
+
 smplayer-themes (0.1.20) hardy; urgency=low
 
   * Added the new theme Oxygen. 
