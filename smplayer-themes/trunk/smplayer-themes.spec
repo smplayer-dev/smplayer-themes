@@ -12,7 +12,7 @@ Release:        %{release}
 
 Source0:        %{name}-%{version}.tar.bz2
 
-Packager:       Ricardo Villalba <rvm@escomposlinux.org>
+Packager:       Ricardo Villalba <rvm@users.sourceforge.net>
 Distribution:   SUSE Linux 9.2 (i586)
 BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildArchitectures: noarch
@@ -41,8 +41,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr (-,root,root) /*
 
 %changelog
-* Fri May 25 2007 Ricardo Villalba <rvm@escomposlinux.org>
+* Fri May 25 2007 Ricardo Villalba <rvm@users.sourceforge.net>
  - use DESTDIR
 
-* Sat May 05 2007 Ricardo Villalba <rvm@escomposlinux.org>
+* Sat May 05 2007 Ricardo Villalba <rvm@users.sourceforge.net>
   - first spec file
