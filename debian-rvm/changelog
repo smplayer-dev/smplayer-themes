@@ -1,3 +1,9 @@
+smplayer-themes (1:20131003) precise; urgency=low
+
+  * Add the Numix-uTouch theme.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 04 Oct 2013 22:10:32 +0200
+
 smplayer-themes (1:20120919) hardy; urgency=low
 
   * Add theme Monochrome.
