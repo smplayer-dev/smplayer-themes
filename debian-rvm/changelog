@@ -1,3 +1,9 @@
+smplayer-themes (1:20140607) precise; urgency=low
+
+  * New theme: Numix-remix.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 07 Jun 2014 02:17:03 +0200
+
 smplayer-themes (1:20131003) precise; urgency=low
 
   * Add the Numix-uTouch theme.
