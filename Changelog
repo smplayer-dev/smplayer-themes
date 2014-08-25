@@ -1,3 +1,6 @@
+Version 20140819
+ * Now all the icons are packaged in resource files (*.rcc).
+
 Version 20140607
  * Add the Numix-remix theme, by  Robert Streeter (rstreeter78 at gmail dot com),
    icons from The Numix Project.
