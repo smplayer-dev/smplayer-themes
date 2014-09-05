@@ -1,4 +1,4 @@
-smplayer-themes (1:20140819) precise; urgency=low
+smplayer-themes (2:14.9.0) precise; urgency=low
 
   * Now all the icons are packaged in resource files (*.rcc).
 
