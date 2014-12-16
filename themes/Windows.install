@@ -46,6 +46,10 @@ mkdir %OUTPUT_DIR%\themes\Oxygen-Air
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Air\Oxygen-Air.rcc %OUTPUT_DIR%\themes\Oxygen-Air\
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Air\README.txt %OUTPUT_DIR%\themes\Oxygen-Air\
 
+mkdir %OUTPUT_DIR%\themes\Oxygen-KDE
+copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-KDE\Oxygen-KDE.rcc %OUTPUT_DIR%\themes\Oxygen-KDE\
+copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-KDE\README.txt %OUTPUT_DIR%\themes\Oxygen-KDE\
+
 mkdir %OUTPUT_DIR%\themes\Oxygen-Refit
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Refit\Oxygen-Refit.rcc %OUTPUT_DIR%\themes\Oxygen-Refit\
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Refit\README.txt %OUTPUT_DIR%\themes\Oxygen-Refit\

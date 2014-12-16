@@ -58,6 +58,10 @@ install:
 	install -m 644 themes/Oxygen-Air/Oxygen-Air.rcc $(THEMES_PATH)/Oxygen-Air/
 	install -m 644 themes/Oxygen-Air/README.txt $(THEMES_PATH)/Oxygen-Air/
 
+	- mkdir $(THEMES_PATH)/Oxygen-KDE
+	install -m 644 themes/Oxygen-KDE/Oxygen-KDE.rcc $(THEMES_PATH)/Oxygen-KDE/
+	install -m 644 themes/Oxygen-KDE/README.txt $(THEMES_PATH)/Oxygen-KDE/
+
 	- mkdir $(THEMES_PATH)/Oxygen-Refit
 	install -m 644 themes/Oxygen-Refit/Oxygen-Refit.rcc $(THEMES_PATH)/Oxygen-Refit/
 	install -m 644 themes/Oxygen-Refit/README.txt $(THEMES_PATH)/Oxygen-Refit/

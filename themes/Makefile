@@ -1,4 +1,4 @@
-all: Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-Refit/Oxygen-Refit.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc 
+all: Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc 
 
 Faenza/Faenza.rcc: Faenza.qrc
 	rcc -binary Faenza.qrc -o Faenza/Faenza.rcc
@@ -36,6 +36,9 @@ Oxygen/Oxygen.rcc: Oxygen.qrc
 Oxygen-Air/Oxygen-Air.rcc: Oxygen-Air.qrc
 	rcc -binary Oxygen-Air.qrc -o Oxygen-Air/Oxygen-Air.rcc
 
+Oxygen-KDE/Oxygen-KDE.rcc: Oxygen-KDE.qrc
+	rcc -binary Oxygen-KDE.qrc -o Oxygen-KDE/Oxygen-KDE.rcc
+
 Oxygen-Refit/Oxygen-Refit.rcc: Oxygen-Refit.qrc
 	rcc -binary Oxygen-Refit.qrc -o Oxygen-Refit/Oxygen-Refit.rcc
 
@@ -67,6 +70,7 @@ clean:
 	-rm Nuvola/Nuvola.rcc
 	-rm Oxygen/Oxygen.rcc
 	-rm Oxygen-Air/Oxygen-Air.rcc
+	-rm Oxygen-KDE/Oxygen-KDE.rcc
 	-rm Oxygen-Refit/Oxygen-Refit.rcc
 	-rm Silk/Silk.rcc
 	-rm Tango/Tango.rcc
