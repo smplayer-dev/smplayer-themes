@@ -10,6 +10,18 @@ all:
 install:
 	-install -d $(THEMES_PATH)
 
+	- mkdir $(THEMES_PATH)/Faenza
+	install -m 644 themes/Faenza/Faenza.rcc $(THEMES_PATH)/Faenza/
+	install -m 644 themes/Faenza/README.txt $(THEMES_PATH)/Faenza/
+
+	- mkdir $(THEMES_PATH)/Faenza-Darkest
+	install -m 644 themes/Faenza-Darkest/Faenza-Darkest.rcc $(THEMES_PATH)/Faenza-Darkest/
+	install -m 644 themes/Faenza-Darkest/README.txt $(THEMES_PATH)/Faenza-Darkest/
+
+	- mkdir $(THEMES_PATH)/Faenza-Silver
+	install -m 644 themes/Faenza-Silver/Faenza-Silver.rcc $(THEMES_PATH)/Faenza-Silver/
+	install -m 644 themes/Faenza-Silver/README.txt $(THEMES_PATH)/Faenza-Silver/
+
 	- mkdir $(THEMES_PATH)/Gartoon
 	install -m 644 themes/Gartoon/Gartoon.rcc $(THEMES_PATH)/Gartoon/
 	install -m 644 themes/Gartoon/README.txt $(THEMES_PATH)/Gartoon/
