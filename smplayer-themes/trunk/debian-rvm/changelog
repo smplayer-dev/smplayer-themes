@@ -1,6 +1,7 @@
 smplayer-themes (2:14.12.0) precise; urgency=low
 
   * New themes Faenza, Faenza-Darkest and Faenza-Silver.
+  * New theme Oxygen-KDE.
 
  -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 16 Dec 2014 03:11:03 +0100
 
