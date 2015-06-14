@@ -1,4 +1,4 @@
-all: Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc 
+all: Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc H2O/H2O.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc 
 
 Faenza/Faenza.rcc: Faenza.qrc
 	rcc -binary Faenza.qrc -o Faenza/Faenza.rcc
@@ -14,6 +14,9 @@ Gartoon/Gartoon.rcc: Gartoon.qrc
 
 Gnome/Gnome.rcc: Gnome.qrc
 	rcc -binary Gnome.qrc -o Gnome/Gnome.rcc
+
+H2O/H2O.rcc: H2O.qrc
+	rcc -binary H2O.qrc -o H2O/H2O.rcc
 
 Monochrome/Monochrome.rcc: Monochrome.qrc
 	rcc -binary Monochrome.qrc -o Monochrome/Monochrome.rcc
@@ -63,6 +66,7 @@ clean:
 	-rm Faenza-Silver/Faenza-Silver.rcc
 	-rm Gartoon/Gartoon.rcc
 	-rm Gnome/Gnome.rcc
+	-rm H2O/H2O.rcc
 	-rm Monochrome/Monochrome.rcc
 	-rm Noia/Noia.rcc
 	-rm Numix-remix/Numix-remix.rcc

@@ -30,6 +30,11 @@ install:
 	install -m 644 themes/Gnome/Gnome.rcc $(THEMES_PATH)/Gnome/
 	install -m 644 themes/Gnome/README.txt $(THEMES_PATH)/Gnome/
 
+	- mkdir $(THEMES_PATH)/H2O
+	install -m 644 themes/H2O/H2O.rcc $(THEMES_PATH)/H2O/
+	install -m 644 themes/H2O/README.txt $(THEMES_PATH)/H2O/
+	install -m 644 themes/H2O/style.qss $(THEMES_PATH)/H2O/
+
 	- mkdir $(THEMES_PATH)/Monochrome
 	install -m 644 themes/Monochrome/Monochrome.rcc $(THEMES_PATH)/Monochrome/
 	install -m 644 themes/Monochrome/README.txt $(THEMES_PATH)/Monochrome/
