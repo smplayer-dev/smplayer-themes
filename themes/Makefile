@@ -1,4 +1,10 @@
-all: Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc H2O/H2O.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc 
+all: Breeze/Breeze.rcc Breeze-dark/Breeze-dark.rcc Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc H2O/H2O.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc 
+
+Breeze/Breeze.rcc: Breeze.qrc
+	rcc -binary Breeze.qrc -o Breeze/Breeze.rcc
+
+Breeze-dark/Breeze-dark.rcc: Breeze-dark.qrc
+	rcc -binary Breeze-dark.qrc -o Breeze-dark/Breeze-dark.rcc
 
 Faenza/Faenza.rcc: Faenza.qrc
 	rcc -binary Faenza.qrc -o Faenza/Faenza.rcc
@@ -61,6 +67,8 @@ blackPanther-VistaLike/blackPanther-VistaLike.rcc: blackPanther-VistaLike.qrc
 	rcc -binary blackPanther-VistaLike.qrc -o blackPanther-VistaLike/blackPanther-VistaLike.rcc
 
 clean:
+	-rm Breeze/Breeze.rcc
+	-rm Breeze-dark/Breeze-dark.rcc
 	-rm Faenza/Faenza.rcc
 	-rm Faenza-Darkest/Faenza-Darkest.rcc
 	-rm Faenza-Silver/Faenza-Silver.rcc

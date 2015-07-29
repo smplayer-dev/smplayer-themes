@@ -1,3 +1,9 @@
+smplayer-themes (2:15.7.0) precise; urgency=low
+
+  *  New themes Breeze and Breeze-dark by andreas_k.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 29 Jul 2015 23:23:59 +0200
+
 smplayer-themes (2:15.6.0) precise; urgency=low
 
   * Add experimental theme H2O. Still work in progress.
