@@ -10,6 +10,14 @@ all:
 install:
 	-install -d $(THEMES_PATH)
 
+	- mkdir $(THEMES_PATH)/Breeze
+	install -m 644 themes/Breeze/Breeze.rcc $(THEMES_PATH)/Breeze/
+	install -m 644 themes/Breeze/README.txt $(THEMES_PATH)/Breeze/
+
+	- mkdir $(THEMES_PATH)/Breeze-dark
+	install -m 644 themes/Breeze-dark/Breeze-dark.rcc $(THEMES_PATH)/Breeze-dark/
+	install -m 644 themes/Breeze-dark/README.txt $(THEMES_PATH)/Breeze-dark/
+
 	- mkdir $(THEMES_PATH)/Faenza
 	install -m 644 themes/Faenza/Faenza.rcc $(THEMES_PATH)/Faenza/
 	install -m 644 themes/Faenza/README.txt $(THEMES_PATH)/Faenza/

@@ -1,3 +1,11 @@
+mkdir %OUTPUT_DIR%\themes\Breeze
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze\Breeze.rcc %OUTPUT_DIR%\themes\Breeze\
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze\README.txt %OUTPUT_DIR%\themes\Breeze\
+
+mkdir %OUTPUT_DIR%\themes\Breeze-dark
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze-dark\Breeze-dark.rcc %OUTPUT_DIR%\themes\Breeze-dark\
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze-dark\README.txt %OUTPUT_DIR%\themes\Breeze-dark\
+
 mkdir %OUTPUT_DIR%\themes\Faenza
 copy %SMPLAYER_THEMES_DIR%\themes\Faenza\Faenza.rcc %OUTPUT_DIR%\themes\Faenza\
 copy %SMPLAYER_THEMES_DIR%\themes\Faenza\README.txt %OUTPUT_DIR%\themes\Faenza\
@@ -21,7 +29,7 @@ copy %SMPLAYER_THEMES_DIR%\themes\Gnome\README.txt %OUTPUT_DIR%\themes\Gnome\
 mkdir %OUTPUT_DIR%\themes\H2O
 copy %SMPLAYER_THEMES_DIR%\themes\H2O\H2O.rcc %OUTPUT_DIR%\themes\H2O\
 copy %SMPLAYER_THEMES_DIR%\themes\H2O\README.txt %OUTPUT_DIR%\themes\H2O\
-copy %SMPLAYER_THEMES_DIR% themes\H2O\style.qss %OUTPUT_DIR%\themes\H2O\
+copy %SMPLAYER_THEMES_DIR%\themes\H2O\style.qss %OUTPUT_DIR%\themes\H2O\
 
 mkdir %OUTPUT_DIR%\themes\Monochrome
 copy %SMPLAYER_THEMES_DIR%\themes\Monochrome\Monochrome.rcc %OUTPUT_DIR%\themes\Monochrome\
