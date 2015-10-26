@@ -1,3 +1,9 @@
+smplayer-themes (2:15.10.0) precise; urgency=low
+
+  * Add a record icon to the H2O theme.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 26 Oct 2015 02:00:54 +0100
+
 smplayer-themes (2:15.7.0) precise; urgency=low
 
   *  New themes Breeze and Breeze-dark by andreas_k.
