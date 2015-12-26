@@ -26,15 +26,15 @@ EditableToolbar::separator {
 	qproperty-iconSize: 48px;
 }
 
-/*
+
 AutohideWidget {
 	border: 0px;
 }
 
 AutohideWidget > QToolBar {
-	border: 1px solid blue;
+	border: 1px solid black;
 }
-*/
+
 
 QToolBar > QToolButton {
 	border: 1px solid transparent;
