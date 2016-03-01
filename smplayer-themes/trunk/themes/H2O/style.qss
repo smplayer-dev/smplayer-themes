@@ -577,6 +577,10 @@ QLineEdit {
 }
 
 QLineEdit:disabled {
-	background-color: lightblue;
+	background-color: lightsteelblue;
 	color: gray;
+}
+
+QComboBox > QLineEdit {
+	border: 0px solid black;
 }
