@@ -569,3 +569,14 @@ ShareButton:pressed {
 	border-radius: 6px;
 }
 
+QLineEdit {
+	background-color: white;
+	color: black;
+	border: 1px solid gray;
+	border-radius: 2px;
+}
+
+QLineEdit:disabled {
+	background-color: lightblue;
+	color: gray;
+}
