@@ -63,5 +63,6 @@
 		<file>H2O/video_size.png</file>
 		<file>H2O/volume.png</file>
 		<file>H2O/zoom.png</file>
+		<file>H2O/infofile.css</file>
 	</qresource>
 </RCC>
