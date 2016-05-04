@@ -5,7 +5,6 @@
 		<file>H2O/audio_channels.png</file>
 		<file>H2O/audio_equalizer.png</file>
 		<file>H2O/audio_filters.png</file>
-		<file>H2O/audio_track.png</file>
 		<file>H2O/bluray.png</file>
 		<file>H2O/bluray_drive.png</file>
 		<file>H2O/bookmarks.png</file>
@@ -87,7 +86,6 @@
 		<file>H2O/speed.png</file>
 		<file>H2O/stereo_mode.png</file>
 		<file>H2O/stop.png</file>
-		<file>H2O/tablet_mode.png</file>
 		<file>H2O/title.png</file>
 		<file>H2O/toolbars.png</file>
 		<file>H2O/trash.png</file>
