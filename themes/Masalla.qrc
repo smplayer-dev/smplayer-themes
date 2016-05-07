@@ -105,5 +105,6 @@
 		<file>Masalla/video_size.png</file>
 		<file>Masalla/video_track.png</file>
 		<file>Masalla/volume.png</file>
+		<file>Masalla/tabletmode.css</file>
 	</qresource>
 </RCC>

@@ -1,0 +1,24 @@
+QWidget {
+	font-size: 12pt;
+}
+
+.QPushButton {
+	border: 0px;
+	background-color: white;
+	margin: 2px;
+	padding: 10px;
+}
+
+QGroupBox {
+	border: 0px;
+	padding-top: 18px;
+	padding-bottom: 2px;
+	color: darkblue;
+	font: bold;
+	margin: 2px;
+}
+
+EditableToolbar > QToolButton:hover {
+	background-color: transparent;
+	border: 0px;
+}
