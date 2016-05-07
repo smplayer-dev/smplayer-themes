@@ -102,5 +102,6 @@
 		<file>H2O/volume.png</file>
 		<file>H2O/zoom.png</file>
 		<file>H2O/infofile.css</file>
+		<file>H2O/tabletmode.css</file>
 	</qresource>
 </RCC>
