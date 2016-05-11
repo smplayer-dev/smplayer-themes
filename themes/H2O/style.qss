@@ -4,6 +4,17 @@ QMenu {
 	menu-scrollable: 1;
 }
 
+/* Icon size for the main toolbar */
+
+#toolbar1 {
+	qproperty-iconSize: 32px;
+}
+
+/* Icon size for the QListWidget in the preferences dialog */
+
+QAbstractItemView#sections {
+	qproperty-iconSize: 22px;
+}
 
 /* Change colors in the control bars */
 
