@@ -1,3 +1,9 @@
+smplayer-themes (2:16.5.2) precise; urgency=low
+
+  * Some fixes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 14 May 2016 02:02:48 +0200
+
 smplayer-themes (2:16.5.0) precise; urgency=low
 
   * Add the Masalla theme
