@@ -72,6 +72,14 @@ mkdir %OUTPUT_DIR%\themes\Oxygen-Refit
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Refit\Oxygen-Refit.rcc %OUTPUT_DIR%\themes\Oxygen-Refit\
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Refit\README.txt %OUTPUT_DIR%\themes\Oxygen-Refit\
 
+mkdir %OUTPUT_DIR%\themes\Papirus
+copy %SMPLAYER_THEMES_DIR%\themes\Papirus\Papirus.rcc %OUTPUT_DIR%\themes\Papirus\
+copy %SMPLAYER_THEMES_DIR%\themes\Papirus\README.txt %OUTPUT_DIR%\themes\Papirus\
+
+mkdir %OUTPUT_DIR%\themes\PapirusDark
+copy %SMPLAYER_THEMES_DIR%\themes\PapirusDark\PapirusDark.rcc %OUTPUT_DIR%\themes\PapirusDark\
+copy %SMPLAYER_THEMES_DIR%\themes\PapirusDark\README.txt %OUTPUT_DIR%\themes\PapirusDark\
+
 mkdir %OUTPUT_DIR%\themes\Silk
 copy %SMPLAYER_THEMES_DIR%\themes\Silk\Silk.rcc %OUTPUT_DIR%\themes\Silk\
 copy %SMPLAYER_THEMES_DIR%\themes\Silk\README.txt %OUTPUT_DIR%\themes\Silk\
