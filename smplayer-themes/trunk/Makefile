@@ -84,6 +84,14 @@ install:
 	install -m 644 themes/Oxygen-Refit/Oxygen-Refit.rcc $(THEMES_PATH)/Oxygen-Refit/
 	install -m 644 themes/Oxygen-Refit/README.txt $(THEMES_PATH)/Oxygen-Refit/
 
+	- mkdir $(THEMES_PATH)/Papirus
+	install -m 644 themes/Papirus/Papirus.rcc $(THEMES_PATH)/Papirus/
+	install -m 644 themes/Papirus/README.txt $(THEMES_PATH)/Papirus/
+
+	- mkdir $(THEMES_PATH)/PapirusDark
+	install -m 644 themes/PapirusDark/PapirusDark.rcc $(THEMES_PATH)/PapirusDark/
+	install -m 644 themes/PapirusDark/README.txt $(THEMES_PATH)/PapirusDark/
+
 	- mkdir $(THEMES_PATH)/Silk
 	install -m 644 themes/Silk/Silk.rcc $(THEMES_PATH)/Silk/
 	install -m 644 themes/Silk/README.txt $(THEMES_PATH)/Silk/
