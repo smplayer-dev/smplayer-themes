@@ -24,9 +24,11 @@ EditableToolbar > QToolButton:hover {
 	border-radius: 0px;
 }
 
+/*
 #toolbar1 {
 	qproperty-iconSize: 40px;
 }
+*/
 
 QAbstractItemView#sections {
 	qproperty-iconSize: 48px;

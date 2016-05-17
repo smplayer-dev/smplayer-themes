@@ -5,10 +5,11 @@ QMenu {
 }
 
 /* Icon size for the main toolbar */
-
+/*
 #toolbar1 {
 	qproperty-iconSize: 32px;
 }
+*/
 
 /* Icon size for the QListWidget in the preferences dialog */
 
