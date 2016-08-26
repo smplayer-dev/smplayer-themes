@@ -37,13 +37,17 @@
 		<file>Papirus/dvd.png</file>
 		<file>Papirus/dvd_drive.png</file>
 		<file>Papirus/dvd_hd.png</file>
+		<file>Papirus/empty_icon.png</file>
 		<file>Papirus/equalizer.png</file>
 		<file>Papirus/exit.png</file>
 		<file>Papirus/faq.png</file>
+		<file>Papirus/favorite-add.png</file>
+		<file>Papirus/favorite-folder.png</file>
 		<file>Papirus/favorite.png</file>
 		<file>Papirus/find.png</file>
 		<file>Papirus/flip.png</file>
 		<file>Papirus/folder-open.png</file>
+		<file>Papirus/folder_open.png</file>
 		<file>Papirus/forward10m.png</file>
 		<file>Papirus/forward10s.png</file>
 		<file>Papirus/forward1m.png</file>
@@ -87,10 +91,14 @@
 		<file>Papirus/pref_gui.png</file>
 		<file>Papirus/pref_network.png</file>
 		<file>Papirus/pref_performance.png</file>
+		<file>Papirus/pref_playlist.png</file>
 		<file>Papirus/pref_subtitles.png</file>
+		<file>Papirus/pref_tv.png</file>
 		<file>Papirus/pref_updates.png</file>
 		<file>Papirus/prefs.png</file>
 		<file>Papirus/previous.png</file>
+		<file>Papirus/quick_access_menu.png</file>
+		<file>Papirus/recents.png</file>
 		<file>Papirus/record.png</file>
 		<file>Papirus/refresh.png</file>
 		<file>Papirus/repeat.png</file>
@@ -104,6 +112,7 @@
 		<file>Papirus/screenshot.png</file>
 		<file>Papirus/screenshots.png</file>
 		<file>Papirus/secondary_sub.png</file>
+		<file>Papirus/send_to_screen.png</file>
 		<file>Papirus/share.png</file>
 		<file>Papirus/show_config.png</file>
 		<file>Papirus/shuffle.png</file>
@@ -116,6 +125,7 @@
 		<file>Papirus/stereo_mode.png</file>
 		<file>Papirus/stop.png</file>
 		<file>Papirus/sub.png</file>
+		<file>Papirus/tablet_mode.png</file>
 		<file>Papirus/title.png</file>
 		<file>Papirus/toolbars.png</file>
 		<file>Papirus/translators.png</file>
@@ -139,6 +149,7 @@
 		<file>Papirus/video_filters.png</file>
 		<file>Papirus/video_preview.png</file>
 		<file>Papirus/video_size.png</file>
+		<file>Papirus/video_track.png</file>
 		<file>Papirus/volume.png</file>
 		<file>Papirus/warning.png</file>
 	</qresource>

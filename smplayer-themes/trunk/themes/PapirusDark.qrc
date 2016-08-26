@@ -37,13 +37,17 @@
 		<file>PapirusDark/dvd.png</file>
 		<file>PapirusDark/dvd_drive.png</file>
 		<file>PapirusDark/dvd_hd.png</file>
+		<file>PapirusDark/empty_icon.png</file>
 		<file>PapirusDark/equalizer.png</file>
 		<file>PapirusDark/exit.png</file>
 		<file>PapirusDark/faq.png</file>
+		<file>PapirusDark/favorite-add.png</file>
+		<file>PapirusDark/favorite-folder.png</file>
 		<file>PapirusDark/favorite.png</file>
 		<file>PapirusDark/find.png</file>
 		<file>PapirusDark/flip.png</file>
 		<file>PapirusDark/folder-open.png</file>
+		<file>PapirusDark/folder_open.png</file>
 		<file>PapirusDark/forward10m.png</file>
 		<file>PapirusDark/forward10s.png</file>
 		<file>PapirusDark/forward1m.png</file>
@@ -87,10 +91,14 @@
 		<file>PapirusDark/pref_gui.png</file>
 		<file>PapirusDark/pref_network.png</file>
 		<file>PapirusDark/pref_performance.png</file>
+		<file>PapirusDark/pref_playlist.png</file>
 		<file>PapirusDark/pref_subtitles.png</file>
+		<file>PapirusDark/pref_tv.png</file>
 		<file>PapirusDark/pref_updates.png</file>
 		<file>PapirusDark/prefs.png</file>
 		<file>PapirusDark/previous.png</file>
+		<file>PapirusDark/quick_access_menu.png</file>
+		<file>PapirusDark/recents.png</file>
 		<file>PapirusDark/record.png</file>
 		<file>PapirusDark/refresh.png</file>
 		<file>PapirusDark/repeat.png</file>
@@ -104,6 +112,7 @@
 		<file>PapirusDark/screenshot.png</file>
 		<file>PapirusDark/screenshots.png</file>
 		<file>PapirusDark/secondary_sub.png</file>
+		<file>PapirusDark/send_to_screen.png</file>
 		<file>PapirusDark/share.png</file>
 		<file>PapirusDark/show_config.png</file>
 		<file>PapirusDark/shuffle.png</file>
@@ -116,6 +125,7 @@
 		<file>PapirusDark/stereo_mode.png</file>
 		<file>PapirusDark/stop.png</file>
 		<file>PapirusDark/sub.png</file>
+		<file>PapirusDark/tablet_mode.png</file>
 		<file>PapirusDark/title.png</file>
 		<file>PapirusDark/toolbars.png</file>
 		<file>PapirusDark/translators.png</file>
@@ -139,6 +149,7 @@
 		<file>PapirusDark/video_filters.png</file>
 		<file>PapirusDark/video_preview.png</file>
 		<file>PapirusDark/video_size.png</file>
+		<file>PapirusDark/video_track.png</file>
 		<file>PapirusDark/volume.png</file>
 		<file>PapirusDark/warning.png</file>
 	</qresource>
