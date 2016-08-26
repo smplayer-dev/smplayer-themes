@@ -30,6 +30,7 @@
 		<file>H2O/favorite-add.png</file>
 		<file>H2O/favorite-folder.png</file>
 		<file>H2O/favorite.png</file>
+		<file>H2O/find.png</file>
 		<file>H2O/flip.png</file>
 		<file>H2O/forward10m.png</file>
 		<file>H2O/forward10s.png</file>
@@ -81,6 +82,7 @@
 		<file>H2O/save.png</file>
 		<file>H2O/screenshot.png</file>
 		<file>H2O/screenshots.png</file>
+		<file>H2O/send_audio.png</file>
 		<file>H2O/send_to_screen.png</file>
 		<file>H2O/show_config.png</file>
 		<file>H2O/speed.png</file>
