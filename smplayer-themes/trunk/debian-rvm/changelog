@@ -1,3 +1,9 @@
+smplayer-themes (2:16.8.0) precise; urgency=low
+
+  * Update the themes H2O, Masalla, Papirus and PapirusDark.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 27 Aug 2016 01:32:48 +0200
+
 smplayer-themes (2:16.6.0) precise; urgency=low
 
   * Add the themes Papirus and PapirusDark.
