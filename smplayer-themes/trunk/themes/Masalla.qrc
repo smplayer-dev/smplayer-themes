@@ -32,6 +32,7 @@
 		<file>Masalla/favorite-add.png</file>
 		<file>Masalla/favorite-folder.png</file>
 		<file>Masalla/favorite.png</file>
+		<file>Masalla/find.png</file>
 		<file>Masalla/flip.png</file>
 		<file>Masalla/forward10m.png</file>
 		<file>Masalla/forward10s.png</file>
@@ -82,6 +83,7 @@
 		<file>Masalla/screenshot.png</file>
 		<file>Masalla/screenshots.png</file>
 		<file>Masalla/secondary_sub.png</file>
+		<file>Masalla/send_audio.png</file>
 		<file>Masalla/send_to_screen.png</file>
 		<file>Masalla/show_config.png</file>
 		<file>Masalla/shuffle.png</file>
