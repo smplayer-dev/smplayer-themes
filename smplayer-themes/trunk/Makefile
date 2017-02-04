@@ -112,6 +112,10 @@ install:
 	install -m 644 themes/blackPanther-VistaLike/blackPanther-VistaLike.rcc $(THEMES_PATH)/blackPanther-VistaLike/
 	install -m 644 themes/blackPanther-VistaLike/README.txt $(THEMES_PATH)/blackPanther-VistaLike/
 
+	- mkdir $(THEMES_PATH)/ePapirus
+	install -m 644 themes/ePapirus/ePapirus.rcc $(THEMES_PATH)/ePapirus/
+	install -m 644 themes/ePapirus/README.txt $(THEMES_PATH)/ePapirus/
+
 clean:
 	cd themes && make clean
 
