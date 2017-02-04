@@ -3,6 +3,7 @@
 		<file>PapirusDark/a_marker.png</file>
 		<file>PapirusDark/add_bookmark.png</file>
 		<file>PapirusDark/angle.png</file>
+		<file>PapirusDark/arrow-down.png</file>
 		<file>PapirusDark/aspect.png</file>
 		<file>PapirusDark/audio_channels.png</file>
 		<file>PapirusDark/audio_equalizer.png</file>
@@ -18,6 +19,8 @@
 		<file>PapirusDark/cdda.png</file>
 		<file>PapirusDark/cdrom_drive.png</file>
 		<file>PapirusDark/chapter.png</file>
+		<file>PapirusDark/check_mark.png</file>
+		<file>PapirusDark/check_mark_disabled.png</file>
 		<file>PapirusDark/check_updates.png</file>
 		<file>PapirusDark/cl_help.png</file>
 		<file>PapirusDark/clear_left.png</file>
@@ -112,6 +115,7 @@
 		<file>PapirusDark/screenshot.png</file>
 		<file>PapirusDark/screenshots.png</file>
 		<file>PapirusDark/secondary_sub.png</file>
+		<file>PapirusDark/send_audio.png</file>
 		<file>PapirusDark/send_to_screen.png</file>
 		<file>PapirusDark/share.png</file>
 		<file>PapirusDark/show_config.png</file>
@@ -152,5 +156,6 @@
 		<file>PapirusDark/video_track.png</file>
 		<file>PapirusDark/volume.png</file>
 		<file>PapirusDark/warning.png</file>
+		<file>PapirusDark/zoom.png</file>
 	</qresource>
 </RCC>

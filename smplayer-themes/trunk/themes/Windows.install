@@ -100,3 +100,7 @@ mkdir %OUTPUT_DIR%\themes\blackPanther-VistaLike
 copy %SMPLAYER_THEMES_DIR%\themes\blackPanther-VistaLike\blackPanther-VistaLike.rcc %OUTPUT_DIR%\themes\blackPanther-VistaLike\
 copy %SMPLAYER_THEMES_DIR%\themes\blackPanther-VistaLike\README.txt %OUTPUT_DIR%\themes\blackPanther-VistaLike\
 
+mkdir %OUTPUT_DIR%\themes\ePapirus
+copy %SMPLAYER_THEMES_DIR%\themes\ePapirus\ePapirus.rcc %OUTPUT_DIR%\themes\ePapirus\
+copy %SMPLAYER_THEMES_DIR%\themes\ePapirus\README.txt %OUTPUT_DIR%\themes\ePapirus\
+
