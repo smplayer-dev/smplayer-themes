@@ -1,3 +1,6 @@
+Version 17.3.0
+ * Delete the H2O theme (it's included in the smplayer executable).
+
 Version 17.2.0
  * Update the themes Papirus and PapirusDark.
  * Add the theme ePapirus.

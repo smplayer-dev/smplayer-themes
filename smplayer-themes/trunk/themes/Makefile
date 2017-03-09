@@ -1,4 +1,4 @@
-all: Breeze/Breeze.rcc Breeze-dark/Breeze-dark.rcc Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc H2O/H2O.rcc Masalla/Masalla.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Papirus/Papirus.rcc PapirusDark/PapirusDark.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc ePapirus/ePapirus.rcc 
+all: Breeze/Breeze.rcc Breeze-dark/Breeze-dark.rcc Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc Masalla/Masalla.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Papirus/Papirus.rcc PapirusDark/PapirusDark.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc ePapirus/ePapirus.rcc 
 
 Breeze/Breeze.rcc: Breeze.qrc
 	rcc -binary Breeze.qrc -o Breeze/Breeze.rcc
@@ -20,9 +20,6 @@ Gartoon/Gartoon.rcc: Gartoon.qrc
 
 Gnome/Gnome.rcc: Gnome.qrc
 	rcc -binary Gnome.qrc -o Gnome/Gnome.rcc
-
-H2O/H2O.rcc: H2O.qrc
-	rcc -binary H2O.qrc -o H2O/H2O.rcc
 
 Masalla/Masalla.rcc: Masalla.qrc
 	rcc -binary Masalla.qrc -o Masalla/Masalla.rcc
@@ -86,7 +83,6 @@ clean:
 	-rm Faenza-Silver/Faenza-Silver.rcc
 	-rm Gartoon/Gartoon.rcc
 	-rm Gnome/Gnome.rcc
-	-rm H2O/H2O.rcc
 	-rm Masalla/Masalla.rcc
 	-rm Monochrome/Monochrome.rcc
 	-rm Noia/Noia.rcc
