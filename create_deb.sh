@@ -1,6 +1,6 @@
 #! /bin/sh
  
-ln -s debian-rvm debian
+ln -s debian-orig debian
 
 #dpkg-buildpackage -rfakeroot
 
