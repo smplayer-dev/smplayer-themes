@@ -6,6 +6,11 @@ mkdir %OUTPUT_DIR%\themes\Breeze-dark
 copy %SMPLAYER_THEMES_DIR%\themes\Breeze-dark\Breeze-dark.rcc %OUTPUT_DIR%\themes\Breeze-dark\
 copy %SMPLAYER_THEMES_DIR%\themes\Breeze-dark\README.txt %OUTPUT_DIR%\themes\Breeze-dark\
 
+mkdir %OUTPUT_DIR%\themes\Dark
+copy %SMPLAYER_THEMES_DIR%\themes\Dark\Dark.rcc %OUTPUT_DIR%\themes\Dark\
+copy %SMPLAYER_THEMES_DIR%\themes\Dark\README.txt %OUTPUT_DIR%\themes\Dark\
+copy %SMPLAYER_THEMES_DIR%\themes\Dark\style.qss %OUTPUT_DIR%\themes\Dark\
+
 mkdir %OUTPUT_DIR%\themes\Faenza
 copy %SMPLAYER_THEMES_DIR%\themes\Faenza\Faenza.rcc %OUTPUT_DIR%\themes\Faenza\
 copy %SMPLAYER_THEMES_DIR%\themes\Faenza\README.txt %OUTPUT_DIR%\themes\Faenza\
