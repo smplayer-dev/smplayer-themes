@@ -18,6 +18,11 @@ install:
 	install -m 644 themes/Breeze-dark/Breeze-dark.rcc $(THEMES_PATH)/Breeze-dark/
 	install -m 644 themes/Breeze-dark/README.txt $(THEMES_PATH)/Breeze-dark/
 
+	- mkdir $(THEMES_PATH)/Dark
+	install -m 644 themes/Dark/Dark.rcc $(THEMES_PATH)/Dark/
+	install -m 644 themes/Dark/README.txt $(THEMES_PATH)/Dark/
+	install -m 644 themes/Dark/style.qss $(THEMES_PATH)/Dark/
+
 	- mkdir $(THEMES_PATH)/Faenza
 	install -m 644 themes/Faenza/Faenza.rcc $(THEMES_PATH)/Faenza/
 	install -m 644 themes/Faenza/README.txt $(THEMES_PATH)/Faenza/
