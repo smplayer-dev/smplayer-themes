@@ -1,3 +1,9 @@
+smplayer-themes (2:20.11.0) xenial; urgency=low
+
+  * Update the Papirus themes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 10 Nov 2020 16:45:13 +0100
+
 smplayer-themes (2:18.6.0) precise; urgency=low
 
   * Add the Dark theme.
