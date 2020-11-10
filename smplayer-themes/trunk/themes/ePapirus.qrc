@@ -1,7 +1,7 @@
 <RCC>
 	<qresource prefix="/">
-		<file>ePapirus/a_marker.png</file>
 		<file>ePapirus/add_bookmark.png</file>
+		<file>ePapirus/a_marker.png</file>
 		<file>ePapirus/angle.png</file>
 		<file>ePapirus/arrow-down.png</file>
 		<file>ePapirus/aspect.png</file>
@@ -9,21 +9,23 @@
 		<file>ePapirus/audio_equalizer.png</file>
 		<file>ePapirus/audio_filters.png</file>
 		<file>ePapirus/audio_track.png</file>
-		<file>ePapirus/b_marker.png</file>
 		<file>ePapirus/background.png</file>
-		<file>ePapirus/bluray.png</file>
 		<file>ePapirus/bluray_drive.png</file>
+		<file>ePapirus/bluray.png</file>
+		<file>ePapirus/b_marker.png</file>
 		<file>ePapirus/bookmark_folder.png</file>
 		<file>ePapirus/bookmarks.png</file>
 		<file>ePapirus/brightness.png</file>
+		<file>ePapirus/cast.png</file>
 		<file>ePapirus/cdda.png</file>
 		<file>ePapirus/cdrom_drive.png</file>
 		<file>ePapirus/chapter.png</file>
-		<file>ePapirus/check_mark.png</file>
 		<file>ePapirus/check_mark_disabled.png</file>
+		<file>ePapirus/check_mark.png</file>
 		<file>ePapirus/check_updates.png</file>
-		<file>ePapirus/cl_help.png</file>
+		<file>ePapirus/chromecast.png</file>
 		<file>ePapirus/clear_left.png</file>
+		<file>ePapirus/cl_help.png</file>
 		<file>ePapirus/close.png</file>
 		<file>ePapirus/compact.png</file>
 		<file>ePapirus/conflict.png</file>
@@ -32,14 +34,14 @@
 		<file>ePapirus/copy.png</file>
 		<file>ePapirus/crash.png</file>
 		<file>ePapirus/delete.png</file>
-		<file>ePapirus/donate.png</file>
 		<file>ePapirus/donate_big.png</file>
-		<file>ePapirus/down.png</file>
+		<file>ePapirus/donate.png</file>
 		<file>ePapirus/download.png</file>
 		<file>ePapirus/download_subs.png</file>
-		<file>ePapirus/dvd.png</file>
+		<file>ePapirus/down.png</file>
 		<file>ePapirus/dvd_drive.png</file>
 		<file>ePapirus/dvd_hd.png</file>
+		<file>ePapirus/dvd.png</file>
 		<file>ePapirus/empty_icon.png</file>
 		<file>ePapirus/equalizer.png</file>
 		<file>ePapirus/exit.png</file>
@@ -49,8 +51,8 @@
 		<file>ePapirus/favorite.png</file>
 		<file>ePapirus/find.png</file>
 		<file>ePapirus/flip.png</file>
-		<file>ePapirus/folder-open.png</file>
 		<file>ePapirus/folder_open.png</file>
+		<file>ePapirus/folder-open.png</file>
 		<file>ePapirus/forward10m.png</file>
 		<file>ePapirus/forward10s.png</file>
 		<file>ePapirus/forward1m.png</file>
@@ -69,23 +71,23 @@
 		<file>ePapirus/monitor.png</file>
 		<file>ePapirus/mouse.png</file>
 		<file>ePapirus/mute.png</file>
-		<file>ePapirus/next.png</file>
 		<file>ePapirus/next_aspect.png</file>
+		<file>ePapirus/next.png</file>
 		<file>ePapirus/ok.png</file>
 		<file>ePapirus/ontop.png</file>
-		<file>ePapirus/open.png</file>
 		<file>ePapirus/open_disc.png</file>
 		<file>ePapirus/open_favorites.png</file>
+		<file>ePapirus/openfolder.png</file>
 		<file>ePapirus/open_playlist.png</file>
+		<file>ePapirus/open.png</file>
 		<file>ePapirus/open_radio.png</file>
 		<file>ePapirus/open_tv.png</file>
-		<file>ePapirus/openfolder.png</file>
 		<file>ePapirus/osd.png</file>
 		<file>ePapirus/pause.png</file>
 		<file>ePapirus/paypal.png</file>
-		<file>ePapirus/play.png</file>
-		<file>ePapirus/play_pause.png</file>
 		<file>ePapirus/playlist.png</file>
+		<file>ePapirus/play_pause.png</file>
+		<file>ePapirus/play.png</file>
 		<file>ePapirus/plus.png</file>
 		<file>ePapirus/pref_advanced.png</file>
 		<file>ePapirus/pref_associations.png</file>
@@ -95,10 +97,10 @@
 		<file>ePapirus/pref_network.png</file>
 		<file>ePapirus/pref_performance.png</file>
 		<file>ePapirus/pref_playlist.png</file>
+		<file>ePapirus/prefs.png</file>
 		<file>ePapirus/pref_subtitles.png</file>
 		<file>ePapirus/pref_tv.png</file>
 		<file>ePapirus/pref_updates.png</file>
-		<file>ePapirus/prefs.png</file>
 		<file>ePapirus/previous.png</file>
 		<file>ePapirus/quick_access_menu.png</file>
 		<file>ePapirus/recents.png</file>
@@ -145,10 +147,10 @@
 		<file>ePapirus/type_vcd.png</file>
 		<file>ePapirus/type_video.png</file>
 		<file>ePapirus/unload.png</file>
-		<file>ePapirus/up.png</file>
 		<file>ePapirus/update_youtube.png</file>
-		<file>ePapirus/url.png</file>
+		<file>ePapirus/up.png</file>
 		<file>ePapirus/url_big.png</file>
+		<file>ePapirus/url.png</file>
 		<file>ePapirus/vcd.png</file>
 		<file>ePapirus/video_filters.png</file>
 		<file>ePapirus/video_preview.png</file>
