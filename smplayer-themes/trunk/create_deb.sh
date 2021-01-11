@@ -9,3 +9,5 @@ rm build-stamp
 fakeroot debian/rules build
 fakeroot debian/rules binary
 
+dh_clean
+rm debian
