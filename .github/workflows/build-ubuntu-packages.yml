@@ -46,6 +46,7 @@ jobs:
         run: |
             cd ${{ env.app-name }}
             ln -s debian-orig debian
+            dch -v 2:$VERSION "Automatic build"
 
       - name: Compile ${{ env.app-name }}
         run: cd ${{ env.app-name }} && fakeroot debian/rules build
@@ -53,12 +54,14 @@ jobs:
       - name: Build package
         run: |
             cd ${{ env.app-name }} && fakeroot debian/rules binary
-            mv ${{ env.app-name }}-${{ env.VERSION }}.deb ${{ env.app-name }}-${{ env.VERSION }}-${{ matrix.config.name }}.deb
+            #mv ${{ env.app-name }}-${{ env.VERSION }}.deb ${{ env.app-name }}-${{ env.VERSION }}-${{ matrix.config.name }}.deb
+            PACKAGEFILENAME=`ls ../${{ env.app-name }}*.deb`
+            echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
 
       - name: Create artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.app-name }}-${{ env.VERSION }}-${{ matrix.config.name }}.deb
+          name: ${{ env.PACKAGEFILENAME }}
           path: ./*.deb
 
       - name: Upload package to release
