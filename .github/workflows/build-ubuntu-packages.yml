@@ -37,7 +37,9 @@ jobs:
         if: ${{ matrix.config.qt == 4 }}
 
       - name: Install Qt 5
-        run: sudo apt-get install qttools5-dev-tools
+        run: |
+            sudo apt-get install qttools5-dev-tools
+            echo "QT_SELECT=qt5" >> $GITHUB_ENV
         if: ${{ matrix.config.qt == 5 }}
 
       - name: Prepare sources
