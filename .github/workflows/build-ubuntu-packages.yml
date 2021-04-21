@@ -51,12 +51,14 @@ jobs:
         run: cd ${{ env.app-name }} && fakeroot debian/rules build
 
       - name: Build package
-        run: cd ${{ env.app-name }} && fakeroot debian/rules binary
+        run: |
+            cd ${{ env.app-name }} && fakeroot debian/rules binary
+            mv ${{ env.app-name }}-${{ env.VERSION }}.deb ${{ env.app-name }}-${{ env.VERSION }}-${{ matrix.config.name }}.deb
 
       - name: Create artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.app-name }}-${{ env.VERSION }}.deb
+          name: ${{ env.app-name }}-${{ env.VERSION }}-${{ matrix.config.name }}.deb
           path: ./*.deb
 
       - name: Upload package to release
