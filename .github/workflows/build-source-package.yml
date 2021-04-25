@@ -1,7 +1,6 @@
 name: Create src package
 env:
   app-name: 'smplayer-themes'
-  VERSION: '20.11.0'
 
 on:
   workflow_dispatch:
@@ -20,7 +19,10 @@ jobs:
           fetch-depth: 0
 
       - name: Get version
-        run: echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
+        run:  |
+            VERSION=`dpkg-parsechangelog -l ${{ env.app-name }}/debian-orig/changelog --show-field Version`
+            VERSION="${VERSION/2:/}"
+            echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
 
       - name: Create package
         run: |
