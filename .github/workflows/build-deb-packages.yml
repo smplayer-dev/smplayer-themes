@@ -47,7 +47,7 @@ jobs:
             cd ${{ env.app-name }}
             ln -s debian-orig debian
             VERSION=`dpkg-parsechangelog --show-field Version`
-            VERSION=`echo $VERSION-1~`lsb_release -is`-`lsb_release -cs`
+            VERSION=`echo $VERSION`-1~`lsb_release -is`-`lsb_release -cs`
             VERSION=`echo $VERSION | tr '[:upper:]' '[:lower:]'`
             dch -b -v $VERSION "Automatic build"
 
