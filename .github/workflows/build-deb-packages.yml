@@ -13,9 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - { name: 'buster', container: 'wachii/debian-qt:10.9', qt: 5 }
-          - { name: 'hirsute', container: 'wachii/ubuntu-qt:21.04', qt: 5 }
-          - { name: 'xenial', container: 'wachii/ubuntu-qt:16.04', qt: 4 }
+          - { container: 'wachii/debian-qt:10.9', qt: 5 }
+          - { container: 'wachii/ubuntu-qt:21.04', qt: 5 }
+          - { container: 'wachii/ubuntu-qt:16.04', qt: 4 }
 
     runs-on: ubuntu-latest
     container: ${{ matrix.config.container }}
