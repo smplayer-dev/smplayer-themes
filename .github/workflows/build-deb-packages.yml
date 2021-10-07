@@ -47,7 +47,9 @@ jobs:
             cd ${{ env.app-name }}
             ln -s debian-orig debian
             VERSION=`dpkg-parsechangelog --show-field Version`
-            dch -b -v $VERSION~${{ matrix.config.name }} "Automatic build"
+            VERSION=`echo $VERSION-1~`lsb_release -is`-`lsb_release -cs`
+            VERSION=`echo $VERSION | tr '[:upper:]' '[:lower:]'`
+            dch -b -v $VERSION "Automatic build"
 
       - name: Compile ${{ env.app-name }}
         run: cd ${{ env.app-name }} && fakeroot debian/rules build
