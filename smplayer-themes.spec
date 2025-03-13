@@ -6,13 +6,13 @@ Name:           %{name}
 Summary:        Themes icons for SMPlayer
 License:        GPL
 Group:          Applications/Multimedia
-URL:            http://smplayer.sourceforge.net/
+URL:            http://www.smplayer.info/
 Version:        %{version}
 Release:        %{release}
 
 Source0:        %{name}-%{version}.tar.bz2
 
-Packager:       Ricardo Villalba <rvm@users.sourceforge.net>
+Packager:       Ricardo Villalba <ricardo@smplayer.info>
 Distribution:   SUSE Linux 9.2 (i586)
 BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildArchitectures: noarch
@@ -41,8 +41,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr (-,root,root) /*
 
 %changelog
-* Fri May 25 2007 Ricardo Villalba <rvm@users.sourceforge.net>
+* Fri May 25 2007 Ricardo Villalba <ricardo@smplayer.info>
  - use DESTDIR
 
-* Sat May 05 2007 Ricardo Villalba <rvm@users.sourceforge.net>
+* Sat May 05 2007 Ricardo Villalba <ricardo@smplayer.info>
   - first spec file

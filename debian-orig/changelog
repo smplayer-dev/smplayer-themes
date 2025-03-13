@@ -2,113 +2,113 @@ smplayer-themes (2:20.11.0) xenial; urgency=low
 
   * Update the Papirus themes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 10 Nov 2020 16:45:13 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 10 Nov 2020 16:45:13 +0100
 
 smplayer-themes (2:18.6.0) precise; urgency=low
 
   * Add the Dark theme.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 08 Jun 2018 21:41:42 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 08 Jun 2018 21:41:42 +0200
 
 smplayer-themes (2:17.3.0) precise; urgency=low
 
   * Delete the H2O theme (it's included in the smplayer executable).
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 09 Mar 2017 23:08:39 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 09 Mar 2017 23:08:39 +0100
 
 smplayer-themes (2:17.2.0) precise; urgency=low
 
   * Update the themes Papirus and PapirusDark.
   * Add the theme ePapirus.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 04 Feb 2017 22:29:34 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 04 Feb 2017 22:29:34 +0100
 
 smplayer-themes (2:16.8.0) precise; urgency=low
 
   * Update the themes H2O, Masalla, Papirus and PapirusDark.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 27 Aug 2016 01:32:48 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 27 Aug 2016 01:32:48 +0200
 
 smplayer-themes (2:16.6.0) precise; urgency=low
 
   * Add the themes Papirus and PapirusDark.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 15 May 2016 01:42:17 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 15 May 2016 01:42:17 +0200
 
 smplayer-themes (2:16.5.2) precise; urgency=low
 
   * Some fixes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 14 May 2016 02:02:48 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 14 May 2016 02:02:48 +0200
 
 smplayer-themes (2:16.5.0) precise; urgency=low
 
   * Add the Masalla theme
   * Update the H2O theme
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 29 Apr 2016 04:17:18 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 29 Apr 2016 04:17:18 +0200
 
 smplayer-themes (2:15.12.0) precise; urgency=low
 
   * Change the AutohideWidget border in the H2O theme.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 26 Dec 2015 01:41:15 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 26 Dec 2015 01:41:15 +0100
 
 smplayer-themes (2:15.10.0) precise; urgency=low
 
   * Add a record icon to the H2O theme.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 26 Oct 2015 02:00:54 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 26 Oct 2015 02:00:54 +0100
 
 smplayer-themes (2:15.7.0) precise; urgency=low
 
   *  New themes Breeze and Breeze-dark by andreas_k.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 29 Jul 2015 23:23:59 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 29 Jul 2015 23:23:59 +0200
 
 smplayer-themes (2:15.6.0) precise; urgency=low
 
   * Add experimental theme H2O. Still work in progress.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 15 Jun 2015 01:52:23 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 15 Jun 2015 01:52:23 +0200
 
 smplayer-themes (2:14.12.0) precise; urgency=low
 
   * New themes Faenza, Faenza-Darkest and Faenza-Silver.
   * New theme Oxygen-KDE.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 16 Dec 2014 03:11:03 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 16 Dec 2014 03:11:03 +0100
 
 smplayer-themes (2:14.9.0) precise; urgency=low
 
   * Now all the icons are packaged in resource files (*.rcc).
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 19 Aug 2014 04:19:25 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 19 Aug 2014 04:19:25 +0200
 
 smplayer-themes (1:20140607) precise; urgency=low
 
   * New theme: Numix-remix.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 07 Jun 2014 02:17:03 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 07 Jun 2014 02:17:03 +0200
 
 smplayer-themes (1:20131003) precise; urgency=low
 
   * Add the Numix-uTouch theme.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 04 Oct 2013 22:10:32 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 04 Oct 2013 22:10:32 +0200
 
 smplayer-themes (1:20120919) hardy; urgency=low
 
   * Add theme Monochrome.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 19 Sep 2012 11:18:17 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 19 Sep 2012 11:18:17 +0200
 
 smplayer-themes (1:20120131) hardy; urgency=low
 
   * Delete Breathless. It seems the license for some icons is not opensource.
   * Delete LeoLike. Not sure about what the real license is. 
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 31 Jan 2012 14:08:06 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 31 Jan 2012 14:08:06 +0100
 
 smplayer-themes (0.1.20) hardy; urgency=low
 
@@ -116,40 +116,40 @@ smplayer-themes (0.1.20) hardy; urgency=low
   * Added the theme Oxygen-Air.
   * Deleted the theme Play.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 11 Jan 2010 13:44:07 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 11 Jan 2010 13:44:07 +0100
 
 smplayer-themes (0.1.19) hardy; urgency=low
 
   * Updated the Gnome theme.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 25 Feb 2009 02:57:01 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 25 Feb 2009 02:57:01 +0100
 
 smplayer-themes (0.1.18) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 09 Nov 2008 18:11:34 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 09 Nov 2008 18:11:34 +0100
 
 smplayer-themes (0.1.17) hardy; urgency=low
 
   * New Release.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 23 Sep 2008 01:14:19 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 23 Sep 2008 01:14:19 +0200
 
 smplayer-themes (0.1.16) unstable; urgency=low
 
   * New Release.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 07 Jun 2008 03:11:02 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 07 Jun 2008 03:11:02 +0200
 
 smplayer-themes (0.1.15) unstable; urgency=low
 
   * New Release.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 30 Jan 2008 23:44:31 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 30 Jan 2008 23:44:31 +0100
 
 smplayer-themes (0.1.14) unstable; urgency=low
 
   * Initial Release.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 25 May 2007 02:26:55 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 25 May 2007 02:26:55 +0200
