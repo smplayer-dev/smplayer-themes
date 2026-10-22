@@ -52,6 +52,14 @@ install:
 	install -m 644 themes/Monochrome/Monochrome.rcc $(THEMES_PATH)/Monochrome/
 	install -m 644 themes/Monochrome/README.txt $(THEMES_PATH)/Monochrome/
 
+	- mkdir $(THEMES_PATH)/Mostech
+	install -m 644 themes/Mostech/Mostech.rcc $(THEMES_PATH)/Mostech/
+	install -m 644 themes/Mostech/README.txt $(THEMES_PATH)/Mostech/
+
+	- mkdir $(THEMES_PATH)/MostechDark
+	install -m 644 themes/MostechDark/MostechDark.rcc $(THEMES_PATH)/MostechDark/
+	install -m 644 themes/MostechDark/README.txt $(THEMES_PATH)/MostechDark/
+
 	- mkdir $(THEMES_PATH)/Noia
 	install -m 644 themes/Noia/Noia.rcc $(THEMES_PATH)/Noia/
 	install -m 644 themes/Noia/README.txt $(THEMES_PATH)/Noia/

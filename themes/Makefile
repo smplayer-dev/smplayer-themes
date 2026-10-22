@@ -1,4 +1,4 @@
-all: Breeze/Breeze.rcc Breeze-dark/Breeze-dark.rcc Dark/Dark.rcc Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc Masalla/Masalla.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Papirus/Papirus.rcc PapirusDark/PapirusDark.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc ePapirus/ePapirus.rcc 
+all: Breeze/Breeze.rcc Breeze-dark/Breeze-dark.rcc Dark/Dark.rcc Faenza/Faenza.rcc Faenza-Darkest/Faenza-Darkest.rcc Faenza-Silver/Faenza-Silver.rcc Gartoon/Gartoon.rcc Gnome/Gnome.rcc Masalla/Masalla.rcc Mostech/Mostech.rcc MostechDark/MostechDark.rcc Monochrome/Monochrome.rcc Noia/Noia.rcc Numix-remix/Numix-remix.rcc Numix-uTouch/Numix-uTouch.rcc Nuvola/Nuvola.rcc Oxygen/Oxygen.rcc Oxygen-Air/Oxygen-Air.rcc Oxygen-KDE/Oxygen-KDE.rcc Oxygen-Refit/Oxygen-Refit.rcc Papirus/Papirus.rcc PapirusDark/PapirusDark.rcc Silk/Silk.rcc Tango/Tango.rcc blackPanther-Light/blackPanther-Light.rcc blackPanther-Real/blackPanther-Real.rcc blackPanther-VistaLike/blackPanther-VistaLike.rcc ePapirus/ePapirus.rcc
 
 Breeze/Breeze.rcc: Breeze.qrc
 	rcc -binary Breeze.qrc -o Breeze/Breeze.rcc
@@ -29,6 +29,12 @@ Masalla/Masalla.rcc: Masalla.qrc
 
 Monochrome/Monochrome.rcc: Monochrome.qrc
 	rcc -binary Monochrome.qrc -o Monochrome/Monochrome.rcc
+
+Mostech/Mostech.rcc: Mostech.qrc
+	rcc -binary Mostech.qrc -o Mostech/Mostech.rcc
+
+MostechDark/MostechDark.rcc: MostechDark.qrc
+	rcc -binary MostechDark.qrc -o MostechDark/MostechDark.rcc
 
 Noia/Noia.rcc: Noia.qrc
 	rcc -binary Noia.qrc -o Noia/Noia.rcc
@@ -89,6 +95,8 @@ clean:
 	-rm Gnome/Gnome.rcc
 	-rm Masalla/Masalla.rcc
 	-rm Monochrome/Monochrome.rcc
+	-rm Mostech/Mostech.rcc
+	-rm MostechDark/MostechDark.rcc
 	-rm Noia/Noia.rcc
 	-rm Numix-remix/Numix-remix.rcc
 	-rm Numix-uTouch/Numix-uTouch.rcc
